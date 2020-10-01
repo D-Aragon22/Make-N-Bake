@@ -1,5 +1,6 @@
 body{
     margin:0 auto;
+    background-color:#4B5162;
 }
 
 .nav-bar{
@@ -8,6 +9,7 @@ body{
     width:100%;
     position:fixed;
     top:0px;
+    z-index:1;
 }
 
 .logo{
@@ -47,9 +49,46 @@ body{
     top:185px;
     font-size:35px;
     font-weight:bold;
-    border:3px solid #4B5162;
 }
 
-.first-column{
-    border:5px solid black;
+.footer{
+    height:80px;
+    width:100%;
+    background-color:pink;
+    position:relative;
+    top:80px;
+    
+}
+
+.search, .button, .fab, .copyright{
+    position:relative;
+    top:20px;
+}
+
+#search{
+    height:20px;
+    width:200px;
+    position:relative;
+    left:100px;
+    top:20px;
+}
+
+.button{
+    position:relative;
+    left:105px;
+}
+
+.fab{
+    font-size:1.7em;
+    color:#515BD4;
+    position:relative;
+    left:150px;
+    top:21px;
+}
+
+.copyright{
+    display:inline-block;
+    position:relative;
+    left:250px;
+    bottom:20px;
 }
