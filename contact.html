@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body>
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakeing and crafts</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c1dfc75dcc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
     </head>
     <!--------------END OF HEAD------->
+    <body>
     <header>
         <nav class="nav-bar">
             <a href="index.html"><img class="logo" src="https://ci6.googleusercontent.com/proxy/RKxhxl5v9ZnVG-cJTZL8Kr_5veYrSGjWIt3tx0Cio_H075WbbPzETaTVVIlIg-gjq29nbJkwOf_RyZujb6-6MEZHQopTeRDnRi6J9l94kteYspQd6v1FI1G05qJizsOdYPc3UWJE9ALIUX-rsjjDOgASh-mNBnTz=s0-d-e1-ft#https://www.freelogodesign.org/file/app/client/thumb/64d408d1-c63d-42db-9909-56fccdb11bc9_200x200.png" /></a>
             <ul class="list-items">
                 <li class="home"><a href="index.html">Home</a></li>
-                <li class="contact"><a href="contact.html">contact</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
                 <li class="about"><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
     <!---------------END OF NAV------------>
-    <div class="contact-container">
-        <label for="fname"></label>
-        <input type="text" id="fname">
+    <section class="contact-container">
+        <label for="name">Full Name 
+        <input type="text" placeholder="Name" id="name">
+        </label>
         <br>
-        <label for="lname"></label>
-        <input type="text" id="lname">
+        <label for="email">Email
+        <input type="text" placeholder="Email" id="email">
+        </label>
         <br>
-        <label for="email"></label>
-        <input type="text" id="email">
-        <br>
-        <label for="comment"></label>
-        <input type="text" id="comment">
-    </div>
+        <label for="comment">Comment
+        <input type="text" placeholder="Your Comment" id="comment">
+        </label>
+    </section>
+    <button class="contact-button">Submit</button>
+    <!------------END OF INPUTS----------------------->
     <footer> 
         <div class="footer">
          <input id="search" type="text">
          <button class="button">Submit</button>
-         <i class="fab fa-instagram"></i>
+         <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
         <p class="copyright">&copy;Damian Aragon. All Rights Reserved. 2020.</p>
-       </footer>     
-      </div>
-      </body>
-    </html>
+    </footer>     
+       </div>
+    </body>
+</html>

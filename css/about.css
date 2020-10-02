@@ -1,0 +1,120 @@
+body{
+    margin:0 auto;
+    background-color:#4B5162;
+}
+
+.nav-bar{
+    background-color:#4B5162;
+    height:80px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index:2;
+}
+
+.logo{
+    height:80px;
+    width:80px;
+    position:relative;
+    bottom:5px;
+}
+
+.list-items{
+    display:inline-block;
+    list-style-type:none;
+    font-size:20px;
+    position:relative;
+    bottom:10px;
+    left:80%;
+}
+
+.home a, .contact a, .about a{
+    text-decoration:none;
+    color:pink;
+}
+
+a:hover{
+    color:#84BEFF;
+}
+
+.about-container{
+    height:512px;
+    background-color:#84BEFF;
+    position:relative;
+    top:80px;
+}
+
+.baking-video{
+    position:relative;
+    left:75px;
+    top:10px;
+}
+
+.baking-text{
+    position:relative;
+    left:113px;
+    border:5px solid pink;
+    border-radius:8px;
+    border-style:dashed;
+    margin-right:820px;
+}
+
+.diy-video{
+    position:relative;
+    left:650px;
+    bottom:404px;
+}
+
+.diy-text{
+    position:relative;
+    left:720px;
+    bottom:418px;
+    border:5px solid pink;
+    border-radius:8px;
+    border-style:dashed;
+    margin-right:820px;
+}
+
+.footer{
+    height:80px;
+    width:100%;
+    background-color:pink;
+    position:relative;
+    top:81px;
+    
+}
+
+.search, .button, .fab, .copyright{
+    position:relative;
+    top:20px;
+}
+
+#search{
+    height:20px;
+    width:200px;
+    position:relative;
+    left:100px;
+    top:20px;
+}
+
+.button{
+    position:relative;
+    left:105px;
+}
+
+.fab{
+    font-size:1.7em;
+    color:#515BD4;
+    position:relative;
+    left:150px;
+    top:21px;
+}
+
+.copyright{
+    display:inline-block;
+    position:relative;
+    left:250px;
+    bottom:20px;
+}
+
+

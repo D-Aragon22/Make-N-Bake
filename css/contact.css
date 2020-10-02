@@ -1,0 +1,122 @@
+body{
+    margin:0 auto;
+    background-color:#4B5162;
+}
+
+.nav-bar{
+    background-color:#4B5162;
+    height:80px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index:2;
+}
+
+.logo{
+    height:80px;
+    width:80px;
+    position:relative;
+    bottom:5px;
+}
+
+.list-items{
+    display:inline-block;
+    list-style-type:none;
+    font-size:20px;
+    position:relative;
+    bottom:10px;
+    left:80%;
+}
+
+.home a, .contact a, .about a{
+    text-decoration:none;
+    color:pink;
+}
+
+a:hover{
+    color:#84BEFF;
+}
+
+.contact-container{
+    height:512px;
+    background-color:#84BEFF;
+    position:relative;
+    top:80px;
+}
+
+
+label{
+    margin-right:1100px;
+    position:relative;
+    top:100px;
+    left:550px;
+    
+} 
+
+#name{
+    height:25px;
+    width:200px;
+}
+
+#email{
+    height:25px;
+    width:200px;
+}
+
+#comment{
+    height:100px;
+    width:200px;
+}
+
+.contact-button{
+    height:20px;
+    width:auto;
+    position:relative;
+    top:-99px;
+    left:623px;
+    z-index:1;
+}
+
+.footer{
+    height:80px;
+    width:100%;
+    background-color:pink;
+    position:relative;
+    top:61px;
+    
+}
+
+.search, .button, .fab, .copyright{
+    position:relative;
+    top:20px;
+}
+
+#search{
+    height:20px;
+    width:200px;
+    position:relative;
+    left:100px;
+    top:20px;
+}
+
+.button{
+    position:relative;
+    left:105px;
+}
+
+.fab{
+    font-size:1.7em;
+    color:#515BD4;
+    position:relative;
+    left:150px;
+    top:21px;
+}
+
+.copyright{
+    display:inline-block;
+    position:relative;
+    left:250px;
+    bottom:20px;
+}
+
+
